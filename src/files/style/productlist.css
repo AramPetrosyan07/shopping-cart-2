@@ -1,0 +1,88 @@
+.productBody{
+    width: 100%;
+    height: 100%;
+    background-image: url('../bg/bg\ \(10\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 30px;
+    background-size: cover;
+}
+.productlist{
+    width: 97%;
+    padding-top: 30px;
+    background-color: rgba(184, 250, 250, 0.089);
+    margin: 0 auto;
+    /* margin-top: 30px; */
+    border-radius: 10px;
+}
+.firstGroup{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    margin: 10px;
+}
+
+/* ////////////////////// */
+
+h1,h2,h3,p,span {
+    font-family: 'Segoe UI';
+}
+
+.twoImg{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.twoImg>div{
+    max-width: 50%;
+    min-width: 400px;
+    position: relative;
+}
+.twoImg>div>img{
+    width: 100%;
+}
+.absalute{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    z-index: 10;
+}
+.absalute2>h2{
+color: #FFF;
+}
+.absalute>button{
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+
+}
+.absalute1>button{
+    color: #FFF;
+    background-color: black;
+}
+.absaluteTop{
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    z-index: 10;
+}
+
+/* ///////////////// */
+
+.group3{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.buttonsProduct{
+    margin-left: 49px;
+}

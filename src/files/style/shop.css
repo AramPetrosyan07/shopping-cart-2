@@ -1,0 +1,47 @@
+.box{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 2px rgb(87, 87, 87) solid;
+}
+.info{
+    margin-left: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.buttons{
+    display: flex;
+    margin-top: 20px
+}
+.buttons>h2{
+    margin-top: 10px;
+}
+.plus{
+    margin: 0 10px;
+    padding: 12px 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    color: #b90105;
+}
+.minus{
+    margin: 0 10px;
+    padding: 12px 23px;
+    border-radius: 50%;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    color: #b90105;
+}
+.btnX{
+    margin: 0 10px;
+    padding: 12px 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    color: #b90105;
+    position: relative;
+    left: 46px;
+    top: -5px;
+}

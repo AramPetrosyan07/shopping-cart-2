@@ -1,0 +1,11 @@
+.shoppinglist{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 50px;
+    /* background-color: greenyellow; */
+    background-image: url('../bg/bg\ \(3\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

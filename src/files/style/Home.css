@@ -1,0 +1,55 @@
+.home{
+    width: 100%;
+    height: 84.8vh;
+    padding-top: 50px;
+    /* background-image: url('https://static.vecteezy.com/system/resources/previews/004/709/344/non_2x/modern-abstract-purple-gradient-background-design-clean-and-simple-background-design-vector.jpg'); */
+    background-image: url('../bg/bg\ \(11\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    font-size: 10em;
+    filter: contrast(15);
+    margin: 0 auto;
+    text-align: center;
+}
+.word{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: switch 8s infinite ease-in-out;
+    min-width: 100%;
+    margin: auto;
+}
+
+.word:nth-child(1){
+    animation-delay: -7s;
+}
+.word:nth-child(2){
+    animation-delay: -6s;
+}
+.word:nth-child(3){
+    animation-delay: -5s;
+}
+@keyframes switch{
+    0%,
+    5%,
+    100%{
+        filter: blur(0px);
+        opacity: 1;
+    }
+    50%,
+    80%{
+        filter: blur(100px);
+        opacity: 0;
+    }
+}
